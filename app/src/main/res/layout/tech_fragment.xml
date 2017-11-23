@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#51b46d"
     android:id="@+id/techFragLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -11,7 +10,7 @@
         android:layout_height="wrap_content"
         android:text="@string/DidYouKnowText"
         android:textColor="#80ffffff"
-        android:textSize="24sp" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/factTextView"
@@ -22,7 +21,7 @@
         android:layout_centerVertical="true"
         android:textColor="@android:color/white"
         android:text="#1. A group of pandas is called an Embarrassment  "
-        android:textSize="24sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/showFactbutton"
