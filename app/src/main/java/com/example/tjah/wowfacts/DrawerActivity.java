@@ -13,7 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.tjah.wowfacts.FragmentBook.Home;
-import com.example.tjah.wowfacts.FragmentBook.Technology;
+import com.example.tjah.wowfacts.FragmentBook.Technology_Facts;
 
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -107,7 +107,7 @@ public class DrawerActivity extends AppCompatActivity
 
         switch (id) {
             case R.id.nav_technolgy:
-                fragment = new Technology();
+                fragment = new Technology_Facts();
                 break;
             case R.id.nav_home:
                 fragment = new Home();

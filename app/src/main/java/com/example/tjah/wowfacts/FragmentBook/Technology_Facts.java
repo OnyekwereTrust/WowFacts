@@ -16,7 +16,7 @@ import com.example.tjah.wowfacts.ColorWheel;
 import com.example.tjah.wowfacts.FactBook.techFactBook;
 import com.example.tjah.wowfacts.R;
 
-public class Technology extends Fragment  {
+public class Technology_Facts extends Fragment  {
 
 
     //declare our new variables
@@ -65,7 +65,7 @@ return rootView;
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        getActivity().setTitle("Technology");
+        getActivity().setTitle("Technology_Facts");
     }
 
 
