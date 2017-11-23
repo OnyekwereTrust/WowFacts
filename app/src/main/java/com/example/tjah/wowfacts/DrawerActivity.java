@@ -12,6 +12,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.tjah.wowfacts.FragmentBook.Home;
+import com.example.tjah.wowfacts.FragmentBook.Technology;
+
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -39,6 +42,7 @@ public class DrawerActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        displaySelectedScreen(R.id.nav_home);
 
 //
 //        //assigning the views from the layout file to the corresponding variable
@@ -103,7 +107,10 @@ public class DrawerActivity extends AppCompatActivity
 
         switch (id) {
             case R.id.nav_technolgy:
-                fragment = new techFragment();
+                fragment = new Technology();
+                break;
+            case R.id.nav_home:
+                fragment = new Home();
                 break;
         }
 

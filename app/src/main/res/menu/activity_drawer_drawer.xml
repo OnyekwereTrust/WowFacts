@@ -7,22 +7,25 @@
             android:title="Home" />
         <item
             android:id="@+id/nav_technolgy"
-            android:title="Technology" />
+            android:title="Technology Facts" />
         <item
             android:id="@+id/nav_people"
-            android:title="People/Celebs" />
+            android:title="People/Celebs Facts" />
         <item
             android:id="@+id/nav_history"
-            android:title="History" />
+            android:title="History Facts" />
+        <item
+            android:id="@+id/nav_animal"
+            android:title="Animal Facts" />
         <item
             android:id="@+id/nav_places"
-            android:title="Animals" />
+            android:title="Places Facts" />
         <item
             android:id="@+id/nav_weird"
-            android:title="Weird" />
+            android:title="Weird Facts" />
         <item
             android:id="@+id/nav_food"
-            android:title="Food" />
+            android:title="Food Facts" />
     </group>
 
     <item android:title="Options">
