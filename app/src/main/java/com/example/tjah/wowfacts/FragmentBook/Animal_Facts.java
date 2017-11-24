@@ -21,9 +21,9 @@ public class Animal_Facts extends Fragment {
 
 
     private Facts[] mAnimalFactBank = new Facts[]{
-            new Facts(R.string.fact1),
-            new Facts(R.string.fact2),
-            new Facts(R.string.fact3),
+            new Facts(R.string.animalFact1),
+            new Facts(R.string.animalFact2),
+            new Facts(R.string.animalFact3),
             new Facts(R.string.fact4),
             new Facts(R.string.fact5),
     };

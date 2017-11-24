@@ -21,12 +21,12 @@ import com.example.tjah.wowfacts.R;
 public class Weird_Facts extends Fragment {
 
 
-    private Facts[] mTechFactBank = new Facts[]{
-            new Facts(R.string.fact1),
-            new Facts(R.string.fact2),
-            new Facts(R.string.fact3),
-            new Facts(R.string.fact4),
-            new Facts(R.string.fact5),
+    private Facts[] mWeirdFactBank = new Facts[]{
+            new Facts(R.string.weirdFact1),
+            new Facts(R.string.weirdFact2),
+            new Facts(R.string.weirdFact3),
+            new Facts(R.string.weirdFact4),
+            new Facts(R.string.weirdFact5),
     };
 
     private TextView mFactTextView;
@@ -35,7 +35,7 @@ public class Weird_Facts extends Fragment {
 
 
     private void updateQuestion() {
-        int question = mTechFactBank[mCurrentIndex].getFactId();
+        int question = mWeirdFactBank[mCurrentIndex].getFactId();
         mFactTextView.setText(question);
     }
 
@@ -66,7 +66,7 @@ public class Weird_Facts extends Fragment {
             public void onClick(View v) {
 
                 //assigning the views from the layout file to the corresponding variable
-                mCurrentIndex = (mCurrentIndex + 1) % mTechFactBank.length;
+                mCurrentIndex = (mCurrentIndex + 1) % mWeirdFactBank.length;
                 updateQuestion();
 
             }

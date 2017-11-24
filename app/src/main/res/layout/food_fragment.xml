@@ -16,11 +16,10 @@
         android:id="@+id/foodFactTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:text="@string/fact1"
         android:textColor="@android:color/white"
-        android:text=" Animal group of pandas is called an Embarrassment  "
         android:textSize="20sp" />
 
     <Button
