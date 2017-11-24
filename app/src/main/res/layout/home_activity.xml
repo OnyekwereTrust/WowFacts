@@ -16,26 +16,41 @@
         android:id="@+id/homeFactTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:text="@string/fact1"
         android:textColor="@android:color/white"
-        android:text="#1. A group of pandas is called an Embarrasment?  "
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/homeShowFactbutton"
+        android:id="@+id/homeShowNextFactbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/homeShowPrevFactbutton"
+        android:layout_alignBottom="@+id/homeShowPrevFactbutton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:background="@android:color/white"
+        android:padding="20dp"
+        android:text="Next"
+        android:textColor="#51b46d" />
+
+    <Button
+        android:id="@+id/homeShowPrevFactbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
-        android:padding="20dp"
-        android:textColor="#51b46d"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
         android:background="@android:color/white"
-        android:text="Show another fun fact" />
-
-
+        android:padding="20dp"
+        android:text="Previous"
+        android:textColor="#51b46d" />
 
 
 

@@ -12,18 +12,18 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.tjah.wowfacts.FragmentBook.Animal_Facts;
+import com.example.tjah.wowfacts.FragmentBook.Food_Facts;
+import com.example.tjah.wowfacts.FragmentBook.History_Facts;
 import com.example.tjah.wowfacts.FragmentBook.Home;
+import com.example.tjah.wowfacts.FragmentBook.People_Facts;
+import com.example.tjah.wowfacts.FragmentBook.Places_Facts;
 import com.example.tjah.wowfacts.FragmentBook.Technology_Facts;
+import com.example.tjah.wowfacts.FragmentBook.Weird_Facts;
 
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-//    //declare our new variables
-//    private techFactBook techFactBook = new techFactBook();
-//    private ColorWheel colorWheel = new ColorWheel();
-//    private RelativeLayout relativeLayout;
-//    private TextView factTextView;
-//    private Button showFactButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,28 +43,6 @@ public class DrawerActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         displaySelectedScreen(R.id.nav_home);
-
-//
-//        //assigning the views from the layout file to the corresponding variable
-//
-//        factTextView = (TextView) findViewById(R.id.factTextView);
-//        showFactButton = (Button) findViewById(R.id.showFactbutton);
-//        relativeLayout = (RelativeLayout) findViewById(R.id.contentLayout);
-//
-//
-//        //button action
-//        showFactButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                String fact = techFactBook.getfact();
-//                int color  = colorWheel.getColor();
-//                relativeLayout.setBackgroundColor(color);
-//                showFactButton.setTextColor(color);
-//
-//                factTextView.setText(fact);
-//            }
-//        });
 
 
     }
@@ -106,12 +84,32 @@ public class DrawerActivity extends AppCompatActivity
         Fragment fragment = null;
 
         switch (id) {
+
+            case R.id.nav_home:
+            fragment = new Home();
+                 break;
             case R.id.nav_technolgy:
                 fragment = new Technology_Facts();
                 break;
-            case R.id.nav_home:
-                fragment = new Home();
+            case R.id.nav_people:
+                fragment =new People_Facts();
                 break;
+            case R.id.nav_history:
+                fragment =new History_Facts();
+                break;
+            case R.id.nav_animal:
+                fragment = new Animal_Facts();
+                break;
+            case R.id.nav_places:
+                fragment = new Places_Facts();
+                break;
+            case R.id.nav_weird:
+                fragment =new Weird_Facts();
+                break;
+            case  R.id.nav_food:
+                fragment = new Food_Facts();
+                break;
+
         }
 
         if (fragment != null) {

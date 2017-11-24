@@ -13,18 +13,39 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.tjah.wowfacts.ColorWheel;
-import com.example.tjah.wowfacts.FactBook.techFactBook;
+//import com.example.tjah.wowfacts.FactBook.techFactBook;
+import com.example.tjah.wowfacts.Facts;
 import com.example.tjah.wowfacts.R;
 
 public class Technology_Facts extends Fragment  {
 
 
+
+    private Facts[] mTechFactBank = new Facts[]{
+            new Facts(R.string.fact1),
+            new Facts(R.string.fact2),
+            new Facts(R.string.fact3),
+            new Facts(R.string.fact4),
+            new Facts(R.string.fact5),
+    };
+
+    private TextView mFactTextView;
+
+    private int mCurrentIndex = 0;
+
+
+    private void updateQuestion() {
+        int question = mTechFactBank[mCurrentIndex].getFactId();
+        mFactTextView.setText(question);
+    }
+
     //declare our new variables
-    private com.example.tjah.wowfacts.FactBook.techFactBook techFactBook = new techFactBook();
+  //  private com.example.tjah.wowfacts.FactBook.techFactBook techFactBook = new techFactBook();
     private ColorWheel colorWheel = new ColorWheel();
     private RelativeLayout relativeLayout;
     private TextView factTextView;
     private Button showFactButton;
+
 
     @Override
     public Context getContext() {
@@ -36,26 +57,20 @@ public class Technology_Facts extends Fragment  {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
        View rootView = inflater.inflate(R.layout.tech_fragment, container ,false);
-
-        factTextView = (TextView) rootView.findViewById(R.id.factTextView);
+        mFactTextView = (TextView)rootView.findViewById(R.id.factTextView);
         showFactButton = (Button) rootView.findViewById(R.id.showFactbutton);
-        relativeLayout = (RelativeLayout) rootView.findViewById(R.id.contentLayout);
+        relativeLayout = (RelativeLayout) rootView.findViewById(R.id.techFragLayout);
         showFactButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 //assigning the views from the layout file to the corresponding variable
+                mCurrentIndex = (mCurrentIndex + 1) % mTechFactBank.length;
+                updateQuestion();
 
-                String fact = techFactBook.getfact();
-                int color  = colorWheel.getColor();
-            //    relativeLayout.setBackgroundColor(color);
-                showFactButton.setTextColor(color);
-
-                factTextView.setText(fact);
             }
         });
 return rootView;
-
 
     }
 

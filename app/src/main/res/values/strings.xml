@@ -8,4 +8,115 @@
     <string name="action_settings">Settings</string>
 
     <string name="DidYouKnowText">Did You Know?</string>
+
+    HOME FACTS
+    <string name="fact1">Ants stretch when they wake up in the morning.</string>
+    <string name="fact2"> Ostriches can run faster than horses.</string>
+    <string name="fact3"> Olympic gold medals are actually made mostly of silver. </string>
+    <string name="fact4">You are born with 300 bones; by the time you are an adult you will have 206. </string>
+    <string name="fact5">It takes about 8 minutes for light from the Sun to reach Earth. </string>
+    <string name="fact6"> Some bamboo plants can grow almost a meter in just one day." </string>
+    <string name="fact7">The state of Florida is bigger than England." </string>
+    <string name="fact8"> The world’s oldest piece of chewing gum is over 9,000 years old! </string>
+    <string name="fact9">A coyote can hear a mouse moving underneath a foot of snow.</string>
+    <string name="fact10">  Some penguins can leap 2-3 meters out of the water. </string>
+    <string name="fact11">  On average, it takes 66 days to form a new habit.</string>
+    <string name="fact12">  Mammoths still walked the earth when the Great Pyramid was being built.</string>
+    <string name="fact13">Banging your head against a wall burns 150 calories an hour</string>
+    <string name="fact14"> Bolts of lightning can shoot out of an erupting volcano.</string>
+    <string name="fact15"> New York drifts about one inch farther away from London each year. </string>
+    <string name="fact16"> A U.S. dollar bill can be folded approximately 4,000 times in the same place before it will tear. </string>
+    <string name="fact17"> A sneeze travels about 100 miles per hour. </string>
+    <string name="fact18"> Earth has traveled more than 5,000 miles in the past 5 minutes. </string>
+    <string name="fact19"> It would take a sloth one month to travel one mile.</string>
+    <string name="fact20"> 10% of the World’s population is left handed. </string>
+    <string name="fact21">  A broken clock is right two times every day</string>
+    <string name="fact22"> According to Amazon, the most highlighted books on Kindle are the Bible, the Steve Jobs biography, and The Hunger Games. </string>
+    <string name="fact23">Bob Marley’s last words to his son before he died were “Money can’t buy life.” </string>
+    <string name="fact24">A hippo’s wide open mouth is big enough to fit a 4-foot-tall child in </string>
+    <string name="fact25">Chewing gum while you cut an onion will help keep you from crying. </string>
+    <string name="fact26">If you were to stretch a Slinky out until it’s flat, it would measure 87 feet long </string>
+    <string name="fact27">Al Capone’s business card said he was a used furniture dealer </string>
+    <string name="fact28">There are more collect calls on Father’s Day than on any other day of the year. </string>
+    <string name="fact29"> Banging your head against a wall burns 150 calories an hour. </string>
+    <string name="fact30">95% of people text things they could never say in person. </string>
+    <string name="fact31">A crocodile can’t poke its tongue out. </string>
+    <string name="fact32">A mole can dig a tunnel that is 300 feet long in only one night. </string>
+    <string name="fact33">It is physically impossible for pigs to look up into the sky. </string>
+    <string name="fact34">Guinness Book of Records holds the record for being the book most often stolen from Public Libraries. </string>
+    <string name="fact35">If you kept yelling for 8 years, 7 months and 6 days, you would produce enough sound energy to heat up a cup of tea. </string>
+
+
+
+    TECHNOLOGY FACTS
+    <string name="techFact1"> </string>
+    <string name="techFact2"> </string>
+    <string name="techFact3"> </string>
+    <string name="techFact4"> </string>
+    <string name="techFact5"> </string>
+    <string name="techFact6"> </string>
+    <string name="techFact7"> </string>
+
+
+
+
+WEIRD FACTS
+
+
+
+    <string name="weirdFact1">Human birth control pills work on gorillas. </string>
+    <string name="weirdFact2">The struggle is real for the ferret – if a female ferret in heat doesn’t find a mate, she can die.</string>
+    <string name="weirdFact3">There are no clocks in Las Vegas gambling casinos. </string>
+    <string name="weirdFact4">Beetles taste like apples, wasps like pine nuts, and worms like fried bacon. </string>
+    <string name="weirdFact5">It is impossible to sneeze with your eyes open. </string>
+    <string name="weirdFact6">There’s an opera house on the U.S.–Canada border where the stage is in one country and half the audience is in another. </string>
+    <string name="weirdFact7">Months that begin on a Sunday will always have a “Friday the 13th.” </string>
+
+
+    <!--137.-->
+    <!--138.-->
+    <!--139.-->
+    <!--140. What is called a “French kiss” in the English-speaking world is known as an “English kiss” in France.-->
+    <!--141.-->
+    <!--142. The placement of a donkey’s eyes in its’ heads enables it to see all four feet at all times!-->
+    <!--143. Some worms will eat themselves if they can’t find any food!-->
+    <!--144. Dolphins sleep with one eye open!-->
+    <!--145.-->
+    <!--146. In France, it is legal to marry a dead person.-->
+    <!--147. Russia has a larger surface area than Pluto.-->
+    <!--148.-->
+    <!--149. The harder you concentrate on falling asleep, the less likely to fall asleep.-->
+    <!--150. You can’t hum while holding your nose closed.-->
+    <!--151. Women have twice as many pain receptors on their body than men. But a much higher pain tolerance.-->
+    <!--152. There are more stars in space than there are grains of sand on every beach in the world.-->
+    <!--153. For every human on Earth there are 1.6 million ants.-->
+    <!--154. The total weight of all those ants, however, is about the same as all the humans.-->
+    <!--155. On Jupiter and Saturn it rains diamonds.-->
+
+    HISTORY FACTS
+
+    <string name="historyFact"> </string>
+
+
+
+    ANIMAL FACTS
+    <string name="animalFact1">The struggle is real for the ferret – if a female ferret in heat doesn’t find a mate,
+        she can die.</string>
+    <string name="animalFact2">Ants stretch when they wake up in the morning.</string>
+    <string name="animalFact3"> Ostriches can run faster than horses.</string>
+
+
+    FOOD FACTS
+    <string name="foodFact"> </string>
+
+
+
+
+    PLACES FACTS
+    <string name="placesFact"></string>
+
+
+    PEOPLE FACTS
+    <string name="peopleFact"> </string>
+
 </resources>
